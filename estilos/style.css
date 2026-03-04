@@ -6,3 +6,50 @@
     Roxo: #CCACFE
     Azul: #CBE7FD
 */
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #CCACFE;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);
+}
+
+section#login > div#imagem {
+    background: #CCACFE url(../imagens/img-fundo.jpg) no-repeat;
+    background-size: contain;
+    background-position: top left;
+    height: 174px;
+    display: block;
+}
+
+section#login > div#formulário {
+    padding: 10px;
+    display: block;
+
+}
